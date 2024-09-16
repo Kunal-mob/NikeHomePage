@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  padding: 0;margin: 0;
+  font-family: "Roboto", sans-serif;
+
+}
+.navcontent {
+  height: 11vh;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  width: 93%;
+  height: 90%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  height: 85%;
+}
+.links{
+  cursor: pointer;
+  width: 30%;
+  height: 90%;
+  font-size: 0.8rem;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav>button{
+  cursor: pointer;
+  height: 45px;
+  width: 90px;
+  border-radius: 10px;
+  background-color: rgb(58, 58, 182);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.nav>button:hover{
+  background-color: rgb(31, 31, 121);
+
+}
+.maincontent{
+  background-color: rgb(212, 213, 214);
+  height: 87vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* align-items:s; */
+}
+.content{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  height: 70%;
+  width:  80%;
+}
+.mini{
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  padding: 30px;
+}
+.mini>h1{
+  font-family: "Roboto", sans-serif;
+  font-size: 7rem;
+line-height: 100px;
+}
+.mini>p{
+  width:  550px;
+  font-size: 1.3rem;
+}
+.btn{
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+.btn>button{
+  font-size: 1.3rem;
+  box-shadow: 1px 1px 2px black;
+  width: 150px;
+  height: 55px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.btn button:hover{
+  box-shadow: 1px 1px 4px black;
+  
+}
+.m-1{
+   margin-top:  30px;
+}
+.heroPic{
+  height: 520px;
+}
+.minipic{
+  width: 60px;
+  height:60px;
+}
+.red{
+  background-color:  rgb(255, 56, 56);
+  color: white;
+}
+.red:hover{
+  background-color:  rgb(255, 21, 21);
+
+}
